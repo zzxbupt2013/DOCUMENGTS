@@ -181,7 +181,7 @@ Error:
 * */
 req = {
     courseId: 'string',
-    timeId: 'string',
+    time: 'string',
     timeStartId: 'string',
 }
 Success:
