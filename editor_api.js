@@ -239,7 +239,7 @@ req = {
     courseId: 'string',
     timeId: 'string',
     type: 'content/homework',
-    file: 'string',
+    file: 'fileObject',
 }
 Success:
     res = {
