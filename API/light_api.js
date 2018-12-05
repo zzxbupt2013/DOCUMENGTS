@@ -3,7 +3,7 @@ var res = {}   //返回数据
 /*
 * 1.获取广告牌列表
 *方法：POST
-*路由：/getLightDeivceList
+*路由：/light/getLightDeivceList
 * 返回数据：devicesList=[
 * {
 *               name: '设备名称',
@@ -35,7 +35,7 @@ Error:返回一个error
 /*
 *2.获取设备GPS信息以及设备图片
 *方法：POST
-* 路由：/getLightDeviceGPS
+* 路由：/light/getLightDeviceGPS
 * 发送数据：checkedDevices=['设备编号1','设备编号2','设备编号3'...]
 * 返回数据：devicesGPSList=[{lon:'string',lan:'string',deviceImg:'url'},{lon:'string',lan:'string',deviceImg:'url'}]
 * */
@@ -50,7 +50,7 @@ Error:返回一个error
 /*
 * 3.手动控制照明设备
 * 方法：POST
-* 路由：/manualControlLight
+* 路由：/light/manualControlLight
 * */
 req = {
     deviceId:'string',
@@ -64,7 +64,7 @@ Error:返回一个error
 /*
 * 4.设置照明灯自动开启时间段
 * 方法：POST
-* 路由：/audioControlLight
+* 路由：/light/audioControlLight
 * 发送数据：periodLight=[{periodId:'string',str_time:'2018-11-27 17:23',cls_time:'2018-11-27 19:23'},...]
 * */
 req = {
@@ -79,7 +79,7 @@ Error:返回一个error
 /*
 *5.定位单个广告牌
 *方法：POST
-* 路由：/locationSingleLightDevice
+* 路由：/light/locationSingleLightDevice
 * */
 req = {
     deviceIdentify:'string',
@@ -104,7 +104,7 @@ Error:返回一个error
 /*
 * 6.获取默认标注设备GPS信息以及设备编号
 * 方法：GET
-* 路由：/getDefaultMarkerList
+* 路由：/light/getDefaultMarkerList
 * 返回数据：defaultMarkerList=[{deviceNum:'设备编号',lon:'经度',lan:'纬度'}]
 * */
 Success:
