@@ -3,7 +3,7 @@ var res = {}   //返回数据
 /*
 * 1、获取登录验证码
 * 方法：GET
-* 路由：/verficode
+* 路由：/login/verficode
 * */
 Sucess:
     res = {
@@ -13,7 +13,7 @@ Error:返回一个error
 /*
 * 2、提交登录
 * 方法：POST
-* 路由：/signin
+* 路由：/login/verficode
 * */
 req = {
     userName: 'string',
