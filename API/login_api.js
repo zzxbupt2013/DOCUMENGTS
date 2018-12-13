@@ -13,7 +13,7 @@ Error:返回一个error
 /*
 * 2、提交登录
 * 方法：POST
-* 路由：/login/verficode
+* 路由：/login/signin
 * */
 req = {
     userName: 'string',
