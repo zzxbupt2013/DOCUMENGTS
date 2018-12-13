@@ -3,7 +3,7 @@ var res = {}   //返回数据
 /*
 * 1、获取密码重置验证码
 * 方法：GET
-* 路由：/verficode
+* 路由：/reset/verficode
 * */
 Sucess:
     res = {
@@ -13,7 +13,7 @@ Error:返回一个error
 /*
 * 2、提交重置
 * 方法：POST
-* 路由：/resetPass
+* 路由：/reset/resetPass
 * */
 req = {
     userName: 'string',
