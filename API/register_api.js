@@ -19,6 +19,7 @@ req = {
     email: 'string',
     password: 'string',
     phone: 'string',
+    prefix:'string',    //手机号前缀 86/87
     checkCode: 'string',
 }
 Sucess:重定向到登录页
