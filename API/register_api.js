@@ -3,7 +3,7 @@ var res = {}   //返回数据
 /*
 * 1、获取注册验证码
 * 方法：GET
-* 路由：/verficode
+* 路由：/register/verficode
 * */
 Sucess:
     res = {
@@ -13,7 +13,7 @@ Error:返回一个error
 /*
 * 2、提交注册
 * 方法：POST
-* 路由：/registerin
+* 路由：/register/registerin
 * */
 req = {
     email: 'string',
