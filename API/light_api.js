@@ -35,7 +35,7 @@ res={
 Error:返回一个error
 
 /*
-*2.获取设备GPS信息以及设备图片
+*2.获取设备GPS信息以及设备编号
 *方法：POST
 * 路由：/light/getLightDeviceGPS
 * 发送数据：checkedDevices=['设备编号1','设备编号2','设备编号3'...]
