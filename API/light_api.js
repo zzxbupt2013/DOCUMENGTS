@@ -3,7 +3,7 @@ var res = {}   //返回数据
 /*
 * 1.获取广告牌列表
 *方法：POST
-*路由：/light/getLightDeivceList
+*路由：/light/getLightDeviceList
 * 返回数据：devicesList=[
 * {
 *               name: '设备名称',
