@@ -4,7 +4,7 @@
 var req = {}   //请求数据
 var res = {}   //返回数据
 /*
-* 1、获取广告牌总数及某一页数据（每页数据最多8条）
+* 1、获取某一页数据（每页数据最多8条）
 * 方法：POST
 * 路由：/system/data_permission/getBillboardData
 * */
@@ -14,15 +14,12 @@ req = {
 }
 Sucess:
     res = {
-        data: {
-           totalNum:'string',  
            tableData:[{
                 billboardId:'string',
                 connectCompany:'string',
                 connectRegion:'string',
                 connectRoad:'string',
            }],
-        }
     }
 Error:返回一个error
 /*
@@ -39,5 +36,18 @@ req = {
 Sucess:
     res = {
       msg:'修改成功'
+    }
+Error:返回一个error
+/*
+* 3、获取广告牌总数
+* 方法：POST
+* 路由：/system/data_permission/getBillboardTotal
+* */
+req = {
+    userName: 'string',
+}
+Sucess:
+    res = {
+      totalNum:'string'
     }
 Error:返回一个error
