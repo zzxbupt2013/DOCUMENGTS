@@ -10,12 +10,12 @@ var res = {}   //返回数据
 * */
 req = {
     userName: 'string',
-    page:number,
+    page:'string',
 }
 Sucess:
     res = {
         data: {
-           totalNum:number,  
+           totalNum:'string',  
            tableData:[{
                 billboardId:'string',
                 connectCompany:'string',
