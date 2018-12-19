@@ -84,7 +84,7 @@ Error:返回一个error
 /*
 * 5、删除用户
 * 方法：POST
-* 路由：/system/user_permission/updateUserPermission
+* 路由：/system/user_permission/deleteUserData
 * */
 req = {
     userName: 'string',
