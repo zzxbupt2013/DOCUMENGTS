@@ -55,6 +55,7 @@ req = {
                 userName:'string',
                 userPhone:'string',
                 connectCompany:'string',
+                userType:'string',
     }
   
 }
