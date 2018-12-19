@@ -119,7 +119,7 @@ Error:返回一个error
 /*
 * 2、获取未分配广告牌
 * 方法：POST
-* 路由：/system/user_permission/updateUserData
+* 路由：/system/user_permission/getUnConnectBillboards
 * */
 req = {
     userName: 'string',
