@@ -128,7 +128,7 @@ req = {
 }
 Sucess:
     res = {
-           biiboardData:[{
+           billboardData:[{
                 billboardId:'string',
                 connectCompany:'string', 
            }],
