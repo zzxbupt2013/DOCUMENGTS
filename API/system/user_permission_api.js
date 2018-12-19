@@ -96,6 +96,27 @@ Sucess:
            msg:'删除成功'
     }
 Error:返回一个error
+/*
+* 6、添加新用户
+* 方法：POST
+* 路由：/system/user_permission/addNewUserData
+* */
+req = {
+    userName: 'string',
+    newData:{
+               
+                userName:'string',
+                userPhone:'string',
+                connectCompany:'string',
+                userType:'string',
+    }
+  
+}
+Sucess:
+    res = {
+           msg:'添加成功'
+    }
+Error:返回一个error
 二、角色权限
 /*
 * 1、获取未分配角色用户列表
