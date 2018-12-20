@@ -54,7 +54,7 @@ Error:返回一个error
 /*
 * 4、删除传感器
 * 方法：POST
-* 路由：/system/dev_sensor/deletaSensor
+* 路由：/system/dev_sensor/deleteSensor
 * */
 req = {
     userName: 'string', 
