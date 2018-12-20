@@ -54,7 +54,7 @@ Error:返回一个error
 /*
 * 4、删除物联卡
 * 方法：POST
-* 路由：/system/dev_TrafficCard/deletaTrafficCard
+* 路由：/system/dev_TrafficCard/deleteTrafficCard
 * */
 req = {
     userName: 'string', 
