@@ -32,10 +32,7 @@ req = {
 }
 Sucess:
     res = {
-           sensorDetail:[{
-               install:'string',
-               fix:'string',
-           },],
+           sensorDetail:['安装维修记录1',...],
     }
 Error:返回一个error
 /*
