@@ -89,3 +89,52 @@ Sucess:
         msg: '录入成功'
     }
 Error:返回一个error
+/*
+* 5、录入物联卡
+* 方法：POST
+* 路由：/system/entry/addTrafficCard
+* */
+req = {
+    userName: 'string',
+    sensorType: 'string',
+    sensorMsg: {
+       addDate:'string',
+       addNum:'string',
+       addSensorId:'string',
+       connectBillboardId:'string',
+        trafficFlow:'string',
+        installDate:'string',
+        maturityDate:'string',
+    },
+}
+Sucess:
+    res = {
+        msg: '录入成功'
+    }
+Error:返回一个error
+/*
+* 6、录入画布
+* 方法：POST
+* 路由：/system/entry/addCanvas
+* */
+req = {
+    userName: 'string',
+    sensorType: 'string',
+    sensorMsg: {
+       addDate:'string',
+       addNum:'string',
+       addSensorId:'string',
+       connectBillboardId:'string',
+       installDate:'string',
+       damaged:'string',
+        level:'string',
+        material:'string',
+        msg:'string',
+        
+    },
+}
+Sucess:
+    res = {
+        msg: '录入成功'
+    }
+Error:返回一个error
