@@ -1,4 +1,6 @@
 数据权限管理使用data_permission_new.js作为API
 目前已知的设备汇总：
-风速传感器、电流传感器、压力开关、倾角（垂直度）传感器、震颤度传感器、门磁传感器、接近传感器、主设备（龙音自己开发的硬件）、
-摄像头、录像机（NVR）、供电（太阳能/市电）、广告牌、物联卡、画布
+风速传感器(sensor_wind)、电流传感器(sensor_electric)、压力开关(sensor_pressure)、倾角（垂直度）传感器(sensor_vertical)、
+震颤度传感器(sensor_tremor)、门磁传感器(sensor_door_magnet)、接近传感器(sensor_near)、主设备（龙音自己开发的硬件）(sensor_main_dev)、
+摄像头(sensor_camera)、录像机（NVR）(sensor_recorder)、供电（太阳能/市电）(sensor_power)、
+广告牌(sensor_billboard)、物联卡(sensor_trafficCard)、画布(sensor_canvas)、光照度传感器(sensor_illumination)
