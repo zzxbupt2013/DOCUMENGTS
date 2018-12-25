@@ -72,6 +72,7 @@ Error:返回一个error
                 number: '设备编号',
                 alertMsg:'报警信息',
                 alertWind:'当前风速',
+                canvasLevel:'画布等级',
                 imgSrc:'报警图片地址',
                 
                 
@@ -87,6 +88,21 @@ Success:
                 number: '设备编号',
                 alertMsg:'报警信息',
                 alertWind:'当前风速',
+                canvasLevel:'画布等级',
                 imgSrc:'报警图片地址',
     }
 Error:返回一个error
+/*
+*5.获取已有区划、路线类型
+*方法：POST
+* 路由：/screen/getRegionsRoads
+* */
+req = {
+    userName:'string',
+}
+Success:
+    res={
+        regions:['区划一','区划二',],
+        roads:['路线一','路线二',]
+    }
+Error:返回一个error 
