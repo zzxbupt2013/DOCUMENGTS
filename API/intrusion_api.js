@@ -31,7 +31,7 @@ Error:返回一个error
 *方法：POST
 * 路由：/intrusion/getIntrusionDeviceGPS
 * 发送数据：checkedDevices=['设备编号1','设备编号2','设备编号3'...]
-* 返回数据：devicesGPSList=[{lon:'string',lat:'string',billboardId:'string'},{lon:'string',lat:'string',billboardId:'string'}]
+* 返回数据：devicesGPSList=[{lon:'string',lat:'string',billboardId:'string',isAlert:'boolean'},{lon:'string',lat:'string',billboardId:'string',isAlert:'boolean'}]
 * */
 req = {
     userName:'string',
