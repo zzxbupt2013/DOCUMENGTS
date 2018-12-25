@@ -98,4 +98,20 @@ Success:
         roads:['路线一','路线二',]
     }
 Error:返回一个error
-
+/*
+*6.获取报警图片
+*方法：POST
+* 路由：/intrusion/getAlertImgs
+* 返回数据：imgs=[{name:'图片名称',src:'图片地址'}]
+* */
+req = {
+    userName:'string',
+    billboardId:'string',
+    startDateTime:'string',
+    endDateTime:'string',
+}
+Success:
+    res={
+        imgs:[]
+    }
+Error:返回一个error
