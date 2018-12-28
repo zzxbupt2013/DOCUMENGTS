@@ -30,7 +30,7 @@ req = {
 }
 Sucess:
     res = {
-            billboardDetail: {                  //17项信息
+            billboardDetail: {                  //19项信息
                billboard_dev_id:'string',//广告牌编号
                billboard_position_msg:'string', //位置描述
                billboard_gps_lon:'string',//经度
@@ -61,7 +61,7 @@ Error:返回一个error
 req = {
     userName: 'string', 
     billboardId:'string',
-    billboardDetail:{                  //17项信息
+    billboardDetail:{                  //19项信息
                billboard_dev_id:'string',//广告牌编号
                billboard_position_msg:'string', //位置描述
                billboard_gps_lon:'string',//经度
