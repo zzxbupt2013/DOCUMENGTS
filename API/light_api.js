@@ -179,12 +179,29 @@ Success:
     }
 Error:返回一个error                         
 /*
-* 10.推送报警信息
-* 方法：阿里云推送服务,待定
+* 10.推送报警状态
+* web socket
 * */
-res={
-    alertDeviceId:'string',
-    alertType:'照明/电流状态异常'
+res='true'/'false',
+   /*
+*1.获取现有报警列表
+*方法：POST
+* 路由：/light/getAlertList
+* */
+req = {
+    userName:'string',
 }
+Success:
+    res={
+        alerts:[{
+           key:'string',//报警唯一标识
+           msg:'string',//报警信息描述
+        },{
+        key:'string',//报警唯一标识
+           msg:'string',//报警信息描述
+        },],
+    }
+Error:返回一个error  
+  
 
 
