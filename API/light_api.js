@@ -184,7 +184,7 @@ Error:返回一个error
 * */
 res='true'/'false',
    /*
-*1.获取现有报警列表
+*11.获取现有报警列表
 *方法：POST
 * 路由：/light/getAlertList
 * */
@@ -202,6 +202,35 @@ Success:
         },],
     }
 Error:返回一个error  
+   /*
+*12.提交反馈
+*方法：POST
+* 路由：/light/uploadAlertFixMsg
+* */
+req = {
+    userName:'string',
+    alertKey:'string',
+    alertFixMsg:'string',
+}
+Success:
+    res={
+        msg:'反馈提交成功'
+    }
+Error:返回一个error 
+   /*
+*13.忽略报警
+*方法：POST
+* 路由：/light/ignoreAlert
+* */
+req = {
+    userName:'string',
+    alertKey:'string',
+}
+Success:
+    res={
+        msg:'报警已忽略'
+    }
+Error:返回一个error 
   
 
 
