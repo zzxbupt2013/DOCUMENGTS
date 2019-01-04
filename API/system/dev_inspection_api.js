@@ -11,7 +11,9 @@ var res = {}   //返回数据
 req = {
     userName: 'string',
     queryData:{
+       sensorType:'string',
        recordType:'string',
+       recordDevId:'string',
        startDate:'string',
        endDate:'string',
     }
@@ -30,7 +32,9 @@ Error:返回一个error
 req = {
     userName: 'string',
     addData:{
+       sensorType:'string',
        recordType:'string',
+       recordDevId:'string',
        recordDate:'string',
        recordDetail:'string',
     }
