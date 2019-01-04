@@ -115,3 +115,18 @@ Success:
         imgs:[]
     }
 Error:返回一个error
+/*
+*7.入侵撤防
+*方法：POST
+* 路由：/intrusion/cancelBillboardIntrusion
+* */
+req = {
+    userName:'string',
+    billboardId:'string',
+   
+}
+Success:
+    res={
+      msg:'撤防成功',
+    }
+Error:返回一个error
