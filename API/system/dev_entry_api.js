@@ -23,7 +23,8 @@ req = {
        billboard_power_route:'string', // 供电路由
        billboard_canvas:'string',  //画面喷绘信息
        billboard_base:'string',  //设施基础
-       billboard_height:'string',  //柱体高度
+       billboard_height:'string',  //总高度
+       billboard_circle_height:'string',  //柱体高度
        billboard_diameter:'string', //柱体直径
        billboard_structure:'string',//设施结构
        billboard_complete_date:'string',//竣工日期
