@@ -90,3 +90,17 @@ Success:
         environmentId:'string',//广告牌环境监控摄像头的P2P通信ID
     }
 Error:返回一个error
+/*
+*6.获取已有区划、路线类型
+*方法：POST
+* 路由：/video/getRegionsRoads
+* */
+req = {
+    userName:'string',
+}
+Success:
+    res={
+        regions:['区划一','区划二',],
+        roads:['路线一','路线二',]
+    }
+Error:返回一个error
