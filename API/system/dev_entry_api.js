@@ -144,7 +144,7 @@ Error:返回一个error
 /*
 * 7、录入摄像头
 * 方法：POST
-* 路由：/system/entry/addSensor
+* 路由：/system/entry/addCamera
 * */
 req = {
     userName: 'string',
