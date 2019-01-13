@@ -141,3 +141,26 @@ Sucess:
         msg: '录入成功'
     }
 Error:返回一个error
+/*
+* 7、录入摄像头
+* 方法：POST
+* 路由：/system/entry/addSensor
+* */
+req = {
+    userName: 'string',
+    sensorType: 'string',//传感器类型
+    sensorMsg: {
+       addDate:'string',//录入日期
+       addNum:'string',//传感器串口号
+       addSensorId:'string',//传感器ID
+       cameraUserName:'string',//登录p2p的用户名
+       cameraPassword:'string',//登录p2p的用户名
+       cameraIp:'string',//摄像头IP
+       connectBillboardId:'string',//关联广告牌ID
+    },
+}
+Sucess:
+    res = {
+        msg: '录入成功'
+    }
+Error:返回一个error
