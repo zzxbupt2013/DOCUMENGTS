@@ -155,8 +155,11 @@ req = {
        addSensorId:'string',//传感器ID
        cameraUserName:'string',//登录p2p的用户名
        cameraPassword:'string',//登录p2p的密码
-       cameraIp:'string',//摄像头IP
+       NVRIp:'string',//摄像头IP
        connectBillboardId:'string',//关联广告牌ID
+       NVRchannel:NVRchannel,
+       DVRip:DVRip,
+       DVRpwd:DVRpwd
     },
 }
 Sucess:
