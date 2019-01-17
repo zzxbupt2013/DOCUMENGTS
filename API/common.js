@@ -6,6 +6,7 @@
 number : '设备编号',
 Illuminance : '光照度',
 wind : '风速',
+pressure:'压力',
 vertical : '垂直度',
 tremor : '震颤度',
 horizontal : '水平偏差',
