@@ -6,7 +6,7 @@
 // username:
 // }
 //res = {
-// wraninglist=[
+// warninglist=[
 // {
 // id:'id',
 // detail:'detail',
