@@ -36,7 +36,7 @@ Success:
 *方法：POST
 * 路由：/data/getDataDeviceGPS
 * 发送数据：checkedDevices=['设备编号1','设备编号2','设备编号3'...]
-* 返回数据：devicesGPSList=[{lon:'string',lat:'string',billboardId:'string',isAlert:true/false},{lon:'string',lat:'string',billboardId:'string',isAlert:true/false}]
+* 返回数据：devicesGPSList=[{lon:'string',lat:'string',billboardId:'string',isAlert:1/0},{lon:'string',lat:'string',billboardId:'string',isAlert:1/0}]
 * */
 req = {
     userName:'string',
@@ -101,7 +101,6 @@ req = {
 Success:
     res={
         regions:['区划一','区划二',],
-        roads:['路线一','路线二',]
     }
 Error:返回一个error  
   /*
