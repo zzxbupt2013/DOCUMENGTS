@@ -161,7 +161,15 @@ req = {
 }
 Success:
     res={
-        autoTimeControls:[{str_time:'2018-11-27 17:23',cls_time:'2018-11-27 19:23'},...]
+        autoTimeControls:[{str_time:{
+        hour:'string',
+        minute:'string',
+        dayOfWeek:[1,2,3,4,5,6,7]
+        },cls_time:{
+        hour:'string',
+        minute:'string',
+        dayOfWeek:[1,2,3,4,5,6,7]
+        }},...]
     }
 Error:返回一个error
  /*
