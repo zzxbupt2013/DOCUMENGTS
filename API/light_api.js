@@ -69,7 +69,15 @@ Error:返回一个error
 * 4.设置照明灯自动开启时间段
 * 方法：POST
 * 路由：/light/audioControlLight
-* 发送数据：autoTimeControls=[{str_time:'2018-11-27 17:23',cls_time:'2018-11-27 19:23'},...]
+* 发送数据：  autoTimeControls:[{str_time:{
+        hour:'string',
+        minute:'string',
+        dayOfWeek:[1,2,3,4,5,6,7]
+        },cls_time:{
+        hour:'string',
+        minute:'string',
+        dayOfWeek:[1,2,3,4,5,6,7]
+        }},...]
 * */
 req = {
     userName:'string',
