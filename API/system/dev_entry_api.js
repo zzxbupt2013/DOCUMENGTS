@@ -29,6 +29,8 @@ req = {
        billboard_structure:'string',//设施结构
        billboard_complete_date:'string',//竣工日期
        billboard_remark:'string',//备注信息
+       billboard_company:'string',//所属公司
+       billboard_ip:'string',//网关IP
     },
 }
 Sucess:
@@ -152,6 +154,7 @@ req = {
     sensorMsg: {
        addDate:'string',//录入日期
        addSensorId:'string',//传感器ID
+       cameraName:'string',//摄像头名称
        cameraUserName:'string',//登录p2p的用户名
        cameraPassword:'string',//登录p2p的密码
        NVRIp:'string',//摄像头IP
