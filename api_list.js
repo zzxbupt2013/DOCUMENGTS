@@ -865,27 +865,32 @@ res = {
     devicesList: [
         {
             number: tempvar.id,//     o    number: '设备编号',
-            light_v: tempvar.Illuminance,//      o   Illuminance:'光照度',
+            light_value_1: tempvar.Illuminance,//      o   Illuminance:'光照度',
+            light_value_2: tempvar.Illuminance2,
+            light_value_3: tempvar.Illuminance3,
             wind: tempvar.wind,//      o   wind:'风速',
             vertical: tempvar.verticality,//      o   vertical:'垂直度',
             tremor: tempvar.tremor,//         tremor:'震颤度',
             horizontal: tempvar['offset'],//     o    horizontal:'水平偏差',
             elec_s: '-',   //电流状态
             elec_1: tempvar['Electric'],//     o    Electric:'电流值',
-            elec_2: '-',
-            elec_3: '-',
-            pressure: '-', //压力
+            elec_2: tempvar['Electric2'],
+            elec_3: tempvar['Electric3'],
+            pressure: tempvar.press, //压力
             curr_s: '-',//         curr_s:'广告牌状态',
             canvacanvasLevel: tempvar.canvasLevel,//      o   canvasLevel:'画布等级',
             t_height: tempvar.height,//     o    totalHeight:'广告牌总高度',
             c_height: tempvar.circleHeight,//     o    circleHeight:'柱体高度',
-            // alertState: tempvar.isalert,//      o   alertState:'报警状态',
+            alertState: tempvar.isalert,//      o   alertState:'报警状态',
             rec_t: moment(tempvar.timestamp).format("YYYY-MM-DD HH:mm:ss"),//      o   timestamp:'时间',
             light_s: "_",//光照状态
             light_on_time: "照明开启时间 - ",
             light_on_circle: "照明开启周期 - ",
             light_off_time: "照明开启时间 - ",
-            light_off_circle: "照明开启周期 - "
+            light_off_circle: "照明开启周期 - ",
+            latitude: tempvar.latitude,
+            longtitude: tempvar.longtitude,
+            imgSrc: tempvar.imgSrc //广告牌图片
         }
     ]
 }
